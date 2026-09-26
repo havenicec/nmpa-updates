@@ -1,0 +1,12 @@
+{
+  "version": "1.0.1",
+  "release_date": "2026-09-26",
+  "type": "patch",
+  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.1.zip",
+  "changelog": [
+    "✨ 修复 1688 换商品链接时的缓存冲突问题",
+    "🚀 优化 1688 极速探针与 1.16 秒无感秒出详情图",
+    "🛡️ 增强账号清除与多商品免登录连续抓取能力",
+    "🔄 增加客户端一键无感热更新引擎"
+  ]
+}
