@@ -1,12 +1,12 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "release_date": "2026-09-28",
   "type": "patch",
-  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.6.zip",
+  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.7.zip",
   "changelog": [
-    "1. 修复抖音安全验证弹窗空白问题，弹窗自动直连商品二维码页",
-    "2. 全新支持抖音短视频链接解析提取（直接获取无水印高清视频与封面）",
-    "3. 优化抖店商品短链与商详链接归一化算法，解决参数过长问题",
-    "4. 支持从短链重定向中预解商品标题与图片，提供零延迟元数据兜底"
+    "彻底解决抖音扫码验证弹窗全白问题 (异步解耦 IPC 回调)",
+    "新增支持短链免扫码快速提取主图与标题",
+    "支持抖音高清短视频直接解析与下载",
+    "扫码或登录后自动继续提取，操作更丝滑"
   ]
 }
