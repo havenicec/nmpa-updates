@@ -1,12 +1,12 @@
 {
-  "version": "1.0.7",
+  "version": "1.0.8",
   "release_date": "2026-09-28",
   "type": "patch",
-  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.7.zip",
+  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.8.zip",
   "changelog": [
-    "彻底解决抖音扫码验证弹窗全白问题 (异步解耦 IPC 回调)",
-    "新增支持短链免扫码快速提取主图与标题",
-    "支持抖音高清短视频直接解析与下载",
-    "扫码或登录后自动继续提取，操作更丝滑"
+    "彻底修复后台线程提前销毁导致的偶然闪退崩溃 (SIGABRT)",
+    "彻底修复 WebEngine 弹窗拦截未定义行为 (采用原生 acceptNavigationRequest)",
+    "增加主窗口与弹窗关闭时的线程安全等待机制 (closeEvent)",
+    "优化页面与网络资源生命周期管理"
   ]
 }
