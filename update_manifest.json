@@ -1,13 +1,12 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "release_date": "2026-09-28",
   "type": "patch",
-  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.4.zip",
+  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.5.zip",
   "changelog": [
-    "修复 1688/抖音电商素材一键提取在客户电脑上的闪退问题",
-    "优化缩略图多线程下载内存生命周期管理，彻底杜绝底层野指针段错误",
-    "优化阿里安全滑块与验证弹窗交互拦截逻辑，彻底解决并发重入死锁",
-    "降低页面 DOM 探针负载，提升在不同网络环境下的采集稳定性",
-    "补齐 macOS 下 QtWebEngine 共享 OpenGL 上下文兼容性"
+    "1. 彻底解决抖店/抖音商品提取超时问题",
+    "2. 全面支持抖店后台、短链接、旧版与纯ID等多种链接归一化",
+    "3. 新增抖音风控扫码/验证智能识别与弹窗接管",
+    "4. 支持从本地Chrome一键同步抖音登录凭据"
   ]
 }
