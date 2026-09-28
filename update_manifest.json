@@ -1,12 +1,13 @@
 {
-  "version": "1.0.3",
-  "release_date": "2026-09-26",
+  "version": "1.0.4",
+  "release_date": "2026-09-28",
   "type": "patch",
-  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.3.zip",
+  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.4.zip",
   "changelog": [
-    "新增专属「✨ 功效宣称与评价」独立顶级选项卡，醒目展示所有功效宣称与试验评价项目",
-    "修复功效宣称代码分离与标签解析（滋养/修护/清洁/护发等）",
-    "基本信息页新增快速跳转按钮与底部醒目横幅，自动重置滚动条至顶部",
-    "支持一键复制完整功效评价全案报告至剪贴板"
+    "修复 1688/抖音电商素材一键提取在客户电脑上的闪退问题",
+    "优化缩略图多线程下载内存生命周期管理，彻底杜绝底层野指针段错误",
+    "优化阿里安全滑块与验证弹窗交互拦截逻辑，彻底解决并发重入死锁",
+    "降低页面 DOM 探针负载，提升在不同网络环境下的采集稳定性",
+    "补齐 macOS 下 QtWebEngine 共享 OpenGL 上下文兼容性"
   ]
 }
