@@ -1,13 +1,9 @@
 {
-  "version": "1.0.10",
+  "version": "1.0.11",
   "release_date": "2026-09-29",
   "type": "patch",
-  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.10.zip",
+  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.11.zip",
   "changelog": [
-    "全面优化抖音短视频与短链自动解析",
-    "修复短视频短链在移动端重定向后遭遇抖音App拦截导致超时问题",
-    "新增 WebEngine 路由智能自愈与 PC 高清播放流自适应切换",
-    "支持短视频标题、创作者、封面图及无水印高清MP4秒级提取",
-    "升级下载器 Referer 防盗链机制，彻底保障音视频资源直连稳定下载"
+    "全面升级抖音短视频/图文笔记解析链路：解除播放器手势限制，支持播放器实例多CDN流提取，彻底根除探测死锁，2秒极速解析"
   ]
 }
