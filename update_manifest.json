@@ -1,9 +1,9 @@
 {
-  "version": "1.0.20",
+  "version": "1.0.21",
   "release_date": "2026-09-29",
   "type": "patch",
-  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.20.zip",
+  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.21.zip",
   "changelog": [
-    "修复补丁模块缺少 QtMultimedia 导致的闪退问题，增加启动看门狗自愈保护机制"
+    "修复特殊化妆品选项卡名称错位问题；在基本信息主页显著展示上市销售包装与标签PDF文件清单、快速预览与原件下载入口"
   ]
 }
