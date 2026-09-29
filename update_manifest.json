@@ -1,12 +1,11 @@
 {
-  "version": "1.0.13",
+  "version": "1.0.14",
   "release_date": "2026-09-29",
   "type": "patch",
-  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.13.zip",
+  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.14.zip",
   "changelog": [
-    "1. 抖音反爬隐身补丁增强：彻底解决后台未挂载渲染触发验证码中间页的隐蔽问题",
-    "2. 抖音短视频秒级解析：修复lcJ5L02CspY及短链视频标题、高清视频源提取",
-    "3. 修复交互验证窗口在短视频模式下未绑定抖音Profile的异常",
-    "4. 完善验证码中间页即时拦截与安全识别"
+    "1. 修复抖音短视频与抖店素材预览与下载时 403 Forbidden 问题",
+    "2. 新增内置高保真视频流播放器，支持播放/暂停/拖动进度/音量调节与QuickTime原生联动",
+    "3. 新增智能本地媒体防盗链缓存，单张下载与批量下载秒级复用"
   ]
 }
