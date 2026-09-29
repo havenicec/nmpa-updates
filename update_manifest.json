@@ -1,11 +1,9 @@
 {
-  "version": "1.0.14",
+  "version": "1.0.15",
   "release_date": "2026-09-29",
   "type": "patch",
-  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.14.zip",
+  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.15.zip",
   "changelog": [
-    "1. 修复抖音短视频与抖店素材预览与下载时 403 Forbidden 问题",
-    "2. 新增内置高保真视频流播放器，支持播放/暂停/拖动进度/音量调节与QuickTime原生联动",
-    "3. 新增智能本地媒体防盗链缓存，单张下载与批量下载秒级复用"
+    "优化视频缓冲并发防竞态，消除重复点击时偶现的缓冲失败误报横幅"
   ]
 }
