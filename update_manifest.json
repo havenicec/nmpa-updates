@@ -1,9 +1,9 @@
 {
-  "version": "1.0.11",
+  "version": "1.0.12",
   "release_date": "2026-09-29",
   "type": "patch",
-  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.11.zip",
+  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.12.zip",
   "changelog": [
-    "全面升级抖音短视频/图文笔记解析链路：解除播放器手势限制，支持播放器实例多CDN流提取，彻底根除探测死锁，2秒极速解析"
+    "彻底修复抖音短视频解析超时：使用独立内存隔离沙箱规避磁盘锁死与缓存污染，强制禁用HEVC下发保证标准H.264解析"
   ]
 }
