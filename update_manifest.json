@@ -1,9 +1,9 @@
 {
-  "version": "1.0.16",
+  "version": "1.0.17",
   "release_date": "2026-09-29",
   "type": "patch",
-  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.16.zip",
+  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.17.zip",
   "changelog": [
-    "修复抖音/抖店商品短链提取时丢失安全签名参数导致触发扫码风控的问题，保留完整安全验签，实现免扫码秒速提取图影素材"
+    "优化抖音详情图识别与过滤算法，彻底剔除页面现货/客服/店铺等UI图标干扰，精准呈现真实商品画廊"
   ]
 }
