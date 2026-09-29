@@ -1,9 +1,11 @@
 {
-  "version": "1.0.21",
+  "version": "1.0.22",
   "release_date": "2026-09-29",
-  "type": "patch",
-  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.21.zip",
+  "type": "full",
+  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/化妆品备案档案速查助手-v1.0.22.dmg",
   "changelog": [
-    "修复特殊化妆品选项卡名称错位问题；在基本信息主页显著展示上市销售包装与标签PDF文件清单、快速预览与原件下载入口"
+    "修复点击「检查更新」后应用闪退的问题（更新任务线程生命周期缺陷，重入与退出两条路径都会 abort）",
+    "修复热补丁对 updater.py 永久失效的加载顺序缺陷，升级后自动剥离过期补丁",
+    "修复 1688 素材页在冻结环境启动时的 NameError 崩溃"
   ]
 }
