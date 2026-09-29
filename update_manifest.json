@@ -1,9 +1,9 @@
 {
-  "version": "1.0.17",
+  "version": "1.0.18",
   "release_date": "2026-09-29",
   "type": "patch",
-  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.17.zip",
+  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.18.zip",
   "changelog": [
-    "优化抖音详情图识别与过滤算法，彻底剔除页面现货/客服/店铺等UI图标干扰，精准呈现真实商品画廊"
+    "修复抖音商详详情图被隐身补丁意外阻断的问题，完美提取全部高清图文详情图"
   ]
 }
