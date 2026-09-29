@@ -1,9 +1,9 @@
 {
-  "version": "1.0.19",
+  "version": "1.0.20",
   "release_date": "2026-09-29",
   "type": "patch",
-  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.19.zip",
+  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.20.zip",
   "changelog": [
-    "支持国家特殊化妆品（国妆特字）上市销售包装图纸及标签样稿电子件解析、多页高清预览与原件下载；新增中检院全配方成分（41项）、使用方法、保质期与人体功效试验评价项目深入解析"
+    "修复补丁模块缺少 QtMultimedia 导致的闪退问题，增加启动看门狗自愈保护机制"
   ]
 }
