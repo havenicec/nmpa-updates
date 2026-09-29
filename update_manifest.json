@@ -1,11 +1,11 @@
 {
   "version": "1.0.22",
   "release_date": "2026-09-29",
-  "type": "full",
-  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/化妆品备案档案速查助手-v1.0.22.dmg",
+  "type": "patch",
+  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.22.zip",
   "changelog": [
-    "修复点击「检查更新」后应用闪退的问题（更新任务线程生命周期缺陷，重入与退出两条路径都会 abort）",
-    "修复热补丁对 updater.py 永久失效的加载顺序缺陷，升级后自动剥离过期补丁",
-    "修复 1688 素材页在冻结环境启动时的 NameError 崩溃"
+    "修复点击「检查更新」后偶现闪退问题（QThread 析构生命周期缺陷）",
+    "引入守护任务模型与并发防重入机制",
+    "强化老版本客户端热补丁动态注入，彻底解决更新器自举问题"
   ]
 }
