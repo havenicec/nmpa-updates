@@ -1,12 +1,13 @@
 {
-  "version": "1.0.9",
-  "release_date": "2026-09-28",
+  "version": "1.0.10",
+  "release_date": "2026-09-29",
   "type": "patch",
-  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.9.zip",
+  "download_url": "https://raw.githubusercontent.com/havenicec/nmpa-updates/main/patch_v1.0.10.zip",
   "changelog": [
-    "全面优化素材卡片画廊渲染与滚屏性能",
-    "将高分辨率缩略图解码与双三次插值重采样彻底移入后台子线程",
-    "主线程显存纹理赋值降至0.05ms，彻底解决40+素材时下滑微卡顿与掉帧",
-    "优化内存缩略图预缩放缓存与画廊批量布局刷新机制"
+    "全面优化抖音短视频与短链自动解析",
+    "修复短视频短链在移动端重定向后遭遇抖音App拦截导致超时问题",
+    "新增 WebEngine 路由智能自愈与 PC 高清播放流自适应切换",
+    "支持短视频标题、创作者、封面图及无水印高清MP4秒级提取",
+    "升级下载器 Referer 防盗链机制，彻底保障音视频资源直连稳定下载"
   ]
 }
